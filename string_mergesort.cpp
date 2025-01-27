@@ -1,5 +1,7 @@
 #include <iostream>
 
+// obs: esse mergesort não ordena um array de strings e sim apenas um string! exemplo: banana -> aaabnn
+
 void merge(string& palavra, string& left, string& right) {
     int i = 0; int j = 0; int k = 0;
     while(i < left.length() && j < right.length()) {
